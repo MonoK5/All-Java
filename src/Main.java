@@ -7,39 +7,39 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-//        System.out.println("what is your name? \n How old are you? \n How much do you earn?");
-      System.out.print("Calculate");
+        System.out.println("what is your name? \n How old are you? \n How much do you earn?");
+//      System.out.print("Calculate");
 
-      int first = input.nextInt();
-      String op = input.next();
-      int second = input.nextInt();
-
+//      int first = input.nextInt();
+//      String op = input.next();
+//      int second = input.nextInt();
 //
-//        String name = input.nextLine();
-//        int age = input.nextInt();
-//        char rand = 'R';
+////
+        String name = input.nextLine();
+        int age = input.nextInt();
+        char rand = 'R';
+
+
+        System.out.println("your name is " + name + " you are " + age + " you earn " + rand );
+
+//       int result = 0;
+//       if (op.equals("+")) {
+//           result = first + second;
+//           System.out.println("The answer is: " + result);
 //
+//       }else if (op.equals("-")) {
+//           result = first - second;
+//           System.out.println("The answer is: " + result);
+//       }else if (op.equals("*")) {
+//           result = first * second;
+//           System.out.println("The answer is: " + result);
+//       }else if (op.equals("/")) {
+//           result = first / second;
+//           System.out.println("The answer is: " + result);
 //
-//        System.out.println("your name is " + name + " you are " + age + " you earn " + rand );
-
-       int result = 0;
-       if (op.equals("+")) {
-           result = first + second;
-           System.out.println("The answer is: " + result);
-
-       }else if (op.equals("-")) {
-           result = first - second;
-           System.out.println("The answer is: " + result);
-       }else if (op.equals("*")) {
-           result = first * second;
-           System.out.println("The answer is: " + result);
-       }else if (op.equals("/")) {
-           result = first / second;
-           System.out.println("The answer is: " + result);
-
-       }else {
-           System.out.println("Invalid operation");
-       }
+//       }else {
+//           System.out.println("Invalid operation");
+//       }
 
 
         }
