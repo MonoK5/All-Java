@@ -83,7 +83,7 @@ public class Main {
 
         }
         if (!found) {
-            System.out.println("That name does not exist");
+            System.out.println("That naam does not exist");
         }
     }
 }
